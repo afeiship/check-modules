@@ -9,7 +9,7 @@
 
 ## installation
 ```shell
-npm install -S @feizheng/check-modules 
+npm install -S @feizheng/check-modules
 ```
 
 ## usage
