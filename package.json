@@ -27,7 +27,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "ansi-colors": "^4.1.1",
+    "ansi-colors": "*",
     "has-module": "^0.1.1"
   }
 }
