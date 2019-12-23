@@ -1,8 +1,8 @@
 /*!
  * name: @feizheng/check-modules
  * url: https://github.com/afeiship/check-modules
- * version: 1.0.0
+ * version: 1.0.3
  * license: MIT
  */
 
-var hasModule=require("has-module"),DEFAULT_CALLBACK=function(n){console.warn(["Not installed size: "+n.length,"npm install "+n.join(" ")].join("\n"))};module.exports=function(n,e){var l=e||DEFAULT_CALLBACK,o=n.filter(function(n){return!hasModule(n)});return o.length&&l(o),!o.length};
+var hasModule=require("has-module"),ansiColor=require("ansi-colors"),DEFAULT_CALLBACK=function(o){console.log("Not installed size: "+o.length),console.log(ansiColor.green.bold([,"npm install "+o.join(" ")].join("\n")))};module.exports=function(o,n){var e=n||DEFAULT_CALLBACK,l=o.filter(function(o){return!hasModule(o)});return l.length&&e(l),!l.length};
