@@ -8,5 +8,10 @@ npm install -S @feizheng/check-modules
 
 ## usage
 ```js
-// codes
+var checkModules = require('check-modules');
+
+var res = checkModules(['gulp','react']);
+
+// true
+// false with warning
 ```
