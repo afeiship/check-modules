@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/check-modules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check node modules or log to user.",
   "homepage": "https://github.com/afeiship/check-modules",
   "author": {
