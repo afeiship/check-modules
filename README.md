@@ -9,14 +9,14 @@
 
 ## installation
 ```shell
-npm install -S @feizheng/check-modules
+npm install -S @jswork/check-modules
 ```
 
 ## usage
 ```js
 var checkModules = require('check-modules');
 
-var res = checkModules(['gulp','react','react-dom','@feizheng/react-ant-tree']);
+var res = checkModules(['gulp','react','react-dom','@jswork/react-ant-tree']);
 
 // true
 // false with warning

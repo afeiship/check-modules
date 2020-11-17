@@ -1,10 +1,10 @@
 var hasModule = require('has-module');
-var ansiColor = require('ansi-colors');;
+var chalk = require('chalk');
 var DEFAULT_CALLBACK = function(notInstalled) {
   console.log('Not installed size: ' + notInstalled.length);
   console.log(
-    ansiColor.green.bold(
-      [, 'npm install ' + notInstalled.join(' ')].join(
+    chalk.green.bold(
+      ['npm install ' + notInstalled.join(' ')].join(
         '\n'
       )
     )
