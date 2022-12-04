@@ -15,8 +15,8 @@
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
-    "@jswork/next": "^1.0.2",
-    "@jswork/next-nice-comments": "^1.0.1",
+    "@jswork/next": "^1.1.5",
+    "@jswork/next-nice-comments": "^1.0.6",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-header": "^2.0.7",
@@ -24,7 +24,7 @@
     "gulp-size": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "jest": "^24.8.0",
-    "release-it": "^14.2.1"
+    "release-it": "^15.5.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
