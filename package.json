@@ -1,6 +1,6 @@
 {
   "name": "@jswork/check-modules",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Check node modules or log to user.",
   "homepage": "https://github.com/afeiship/check-modules",
   "author": {
@@ -27,6 +27,7 @@
     "release-it": "^15.5.1"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
